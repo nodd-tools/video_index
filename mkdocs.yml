@@ -1,6 +1,6 @@
-site_name: TODO: your repository name
+site_name: video_index
 
-repo_url: TODO: your repository url
+repo_url: https://github.com/nodd-tools/video_index
 
 theme:
   name: material
@@ -26,4 +26,8 @@ nav:
   - Contributing: CONTRIBUTING.md
   - Code of Conduct: CODE_OF_CONDUCT.md
   - Code Reference:
-      - Some Module: api/some_module.md
+      - Build Index: api/build_index.md
+      - Encode Video: api/encode_video.md
+      - GCloud Utils: api/gcloud_utils.md
+      - Utils: api/utils.md
+      - Get Video Frame: api/get_frame.md

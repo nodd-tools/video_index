@@ -3,15 +3,20 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = TODO: pick a project name
+name = "video_index"
 version = "0.1.0"
-description = TODO: input a project description
+description = "AV1 intra-only video frame extraction and indexing library"
 authors = [
-    { name = TODO: your name here },
-]
-dependencies = [
+  { name = "Scott Brown", email = "scott.brown@noaa.gov" }
 ]
 readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "fastapi>=0.95",
+  "uvicorn>=0.22",
+  "requests>=2.31",
+  "google-cloud-storage>=2.12"
+]
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
